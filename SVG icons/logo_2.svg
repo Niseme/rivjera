@@ -1,0 +1,25 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="121.39" height="43.78" viewBox="0 0 121.39 43.78">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #48271d;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M41.36,25.48a8.22,8.22,0,1,1-15.82,3.15,8.27,8.27,0,0,1,2.13-5.54,6.14,6.14,0,0,1,3.71-10.78v-.22a4.37,4.37,0,1,1,7.36,3.18,6.14,6.14,0,0,1,2.65,10.21Z" transform="translate(-0.26 -0.09)"/>
+  <path class="cls-1" d="M34,29.35V42.87" transform="translate(-0.26 -0.09)"/>
+  <path class="cls-1" d="M94.45,25.48a8.34,8.34,0,0,1,.61,3.12,8.22,8.22,0,1,1-14.32-5.51,6.15,6.15,0,0,1,3.7-10.78v-.22a4.37,4.37,0,1,1,7.36,3.18,6.14,6.14,0,0,1,2.65,10.21Z" transform="translate(-0.26 -0.09)"/>
+  <path class="cls-1" d="M87,29.35V42.87" transform="translate(-0.26 -0.09)"/>
+  <path class="cls-1" d="M1.26,42.87H120.65" transform="translate(-0.26 -0.09)"/>
+  <path class="cls-1" d="M61.07,1.09V42.87" transform="translate(-0.26 -0.09)"/>
+  <path class="cls-1" d="M53.13,8.73l7.94-7.64" transform="translate(-0.26 -0.09)"/>
+  <path class="cls-1" d="M69,8.73,61.07,1.09" transform="translate(-0.26 -0.09)"/>
+  <path class="cls-1" d="M50.5,21.25,61.07,11.09" transform="translate(-0.26 -0.09)"/>
+  <path class="cls-1" d="M71.64,21.25,61.07,11.09" transform="translate(-0.26 -0.09)"/>
+  <path class="cls-1" d="M48.59,35.61l12.48-12" transform="translate(-0.26 -0.09)"/>
+  <path class="cls-1" d="M73.55,35.61l-12.48-12" transform="translate(-0.26 -0.09)"/>
+</svg>
