@@ -8,11 +8,17 @@ body * {
 }
 .main-bg{
     background-image: url('/assets/bg-img.png');
+    height: 100vh;
 }
+/* .gradient-bg{
+    background-image: url('/assets/bg-gradient.png');
+    z-index: -1;
+    height: 100vh;
+} */
 header{
     display: flex;
     justify-content: center;
-    padding-top: 5rem;
+    padding-top: 100px;
 }
 .content{
     display: flex;
@@ -27,7 +33,6 @@ header{
     font-size: 60px;
     text-transform: uppercase;
     color: #fff;
-  
 }
 
 .sub-title{
@@ -60,5 +65,21 @@ header{
     background-color: #ecddc8;
 }
 @media (max-width: 576px){
-
+    .main-bg{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content {
+    padding-top: 250px;
+}
+.main-title {
+    font-size: 30px;
+}
+.sub-title {
+    font-size: 15px;
+}
+.suzinok-daugiau-btn {
+    font-size: 10px;
+}
+    
 }
