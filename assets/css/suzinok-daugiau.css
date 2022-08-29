@@ -9,25 +9,30 @@ body * {
 
 .main-bg {
     background: rgb(62, 63, 52);
-    /* background-image: url('/assets/bg-img.png'); */
+    background-image: url('/assets/bg-img.png'); 
+    height: 100vh;
+}
+
+ .gradient-bg{
+    background-image: url('/assets/bg-gradient.png');
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #48271d;
-}
-
-/* .gradient-bg{
-    background-image: url('/assets/bg-gradient.png');
-    z-index: -1;
-    height: 100vh;
-} */
+} 
 .registration-block{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
-    background: url('/assets/form-block-bg.png')
+    padding: 60px 150px;
+    background: url('/assets/form-block-bg.png');
+    position: relative;
+}
+.close-icon{
+    position: absolute;
+    top:20px;
+    right: 20px;
 }
 .logo{
     width: 150px;
@@ -40,20 +45,22 @@ padding-top: 10px;
 }
 .form{
 width: 100%;
+margin-top: 30px;
 }
-.form-row{
 
-}
 .form-row input{
     width: 100%;
     margin-bottom: 18px;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 30px;
     border: 1px solid #48271d;
     border-top: none;
     border-right: none;
     border-left: none;
     background-color: transparent;
+}
+.form-row input::placeholder{
+    color: #48271d;
 }
 .check-box{
     display: flex;
@@ -115,5 +122,15 @@ width: 100%;
 }
 
 @media (max-width: 576px){
-
+    .registration-block {
+        padding: 20px 20px;
+        }
+        .header-h4{
+            text-align: center;
+        }
+        .contact-info {
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+                }
 }
