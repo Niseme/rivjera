@@ -1,3 +1,37 @@
+@font-face {
+    font-family: 'EK_Mukta_Bold';
+    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-Bold.woff2');
+}
+
+@font-face {
+    font-family: 'EK_Mukta_ExtraBold';
+    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-ExtraBold.woff2');
+}
+
+@font-face {
+    font-family: 'EK_Mukta_ExtraLight';
+    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-ExtraLight.woff2');
+}
+
+@font-face {
+    font-family: 'EK_Mukta_Light';
+    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-Light.woff2');
+}
+
+@font-face {
+    font-family: 'EK_Mukta_Medium';
+    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-Medium.woff2');
+}
+
+@font-face {
+    font-family: 'EK_Mukta_Regular';
+    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'EK_Mukta_SemiBold';
+    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-SemiBold.woff2');
+}
 body,
 body * {
     margin: 0;
@@ -39,9 +73,12 @@ body * {
 }
 .header-h4{
 padding-top: 18px;
+font-family: 'EK_Mukta_ExtraBold';
 }
 .header-h3{
 padding-top: 10px;
+text-transform: uppercase;
+font-family: 'EK_Mukta_ExtraBold';
 }
 .form{
 width: 100%;
@@ -61,6 +98,7 @@ margin-top: 30px;
 }
 .form-row input::placeholder{
     color: #48271d;
+    font-family: 'EK_Mukta_Bold';
 }
 .check-box{
     display: flex;
@@ -70,9 +108,11 @@ margin-top: 30px;
 }
 .check-box label{
    width: 100%;
+
 }
 .check-box-p
 {
+    font-family: 'EK_Mukta_Bold';
     margin-bottom: 18px;
     font-size: 16px;
     line-height: 20px;
@@ -87,6 +127,7 @@ margin-top: 30px;
 }
 
 .registruotis-btn {
+    font-family: 'EK_Mukta_Medium';
     font-size: 16px;
     text-transform: uppercase;
     color: #ddcab0;
@@ -103,6 +144,9 @@ margin-top: 30px;
     margin-bottom: 36px;
     gap: 7px;
 }
+.contact-person h4, h5{
+    font-family: 'EK_Mukta_Bold';
+}
 .contact-info{
     display: flex;
 }
@@ -118,6 +162,7 @@ margin-top: 30px;
     display: flex;
 }
 .contact{
+    font-family: 'EK_Mukta_Light';
     font-size: 16px;
 }
 
@@ -126,12 +171,10 @@ margin-top: 30px;
     background-color: #ddcab0;
     color: #48271d;
 }
-.contact-phone:hover {
-    color: red;
+.contact:hover {
+    font-family: 'EK_Mukta_Bold';
 }
-.contact-email:hover {
-    color: red;
-}
+
 
 @media (max-width: 576px){
     .registration-block {

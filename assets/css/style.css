@@ -1,6 +1,30 @@
 @font-face {
-    font-family: 'EK';
+    font-family: 'EK_Mukta_Bold';
     src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-Bold.woff2');
+}
+@font-face {
+    font-family: 'EK_Mukta_ExtraBold';
+    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-ExtraBold.woff2');
+}
+@font-face {
+    font-family: 'EK_Mukta_ExtraLight';
+    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-ExtraLight.woff2');
+}
+@font-face {
+    font-family: 'EK_Mukta_Light';
+    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-Light.woff2');
+}
+@font-face {
+    font-family: 'EK_Mukta_Medium';
+    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-Medium.woff2');
+}
+@font-face {
+    font-family: 'EK_Mukta_Regular';
+    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-Regular.woff2');
+}
+@font-face {
+    font-family: 'EK_Mukta_SemiBold';
+    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-SemiBold.woff2');
 }
 body,
 body * {
@@ -18,6 +42,7 @@ body * {
 .gradient-bg{
     background-image: url('/assets/bg-gradient.png');
     height: 100vh;
+    background-size: cover;
 } 
 header{
     display: flex;
@@ -28,12 +53,13 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 480px;
+    padding-top: 400px;
 }
 .main-title{
     display: flex;
     justify-content: center;
     text-align: center;
+    font-family: 'EK_Mukta_ExtraBold';
     font-size: 60px;
     text-transform: uppercase;
     color: #fff;
@@ -43,6 +69,7 @@ header{
     display: flex;
     justify-content: center;
     text-align: center;
+    font-family: 'EK_Mukta_Bold';
     font-size: 28px;
     text-transform: uppercase;
     margin-top: 18px;
@@ -53,6 +80,7 @@ header{
     justify-content: center;
     text-decoration: none;
     margin-top: 36px;
+   
 }
 
 .suzinok-daugiau-btn{
@@ -63,6 +91,7 @@ header{
     border: 1px solid #ddcab0;
     border-radius: 30px;
     padding: 20px;
+    font-family: 'EK_Mukta_Light';
 }
 
 .suzinok-daugiau-btn:hover {
