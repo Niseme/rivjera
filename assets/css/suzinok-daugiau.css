@@ -1,37 +1,5 @@
-@font-face {
-    font-family: 'EK_Mukta_Bold';
-    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-Bold.woff2');
-}
 
-@font-face {
-    font-family: 'EK_Mukta_ExtraBold';
-    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-ExtraBold.woff2');
-}
-
-@font-face {
-    font-family: 'EK_Mukta_ExtraLight';
-    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-ExtraLight.woff2');
-}
-
-@font-face {
-    font-family: 'EK_Mukta_Light';
-    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-Light.woff2');
-}
-
-@font-face {
-    font-family: 'EK_Mukta_Medium';
-    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-Medium.woff2');
-}
-
-@font-face {
-    font-family: 'EK_Mukta_Regular';
-    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-Regular.woff2');
-}
-
-@font-face {
-    font-family: 'EK_Mukta_SemiBold';
-    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-SemiBold.woff2');
-}
+@import url('/assets/css/fonts.css');
 body,
 body * {
     margin: 0;
@@ -67,7 +35,9 @@ body * {
     position: absolute;
     top:20px;
     right: 20px;
+    padding: 20px;
 }
+
 .logo{
     width: 150px;
 }
@@ -108,7 +78,8 @@ margin-top: 30px;
 }
 .check-box label{
    width: 100%;
-
+   white-space: nowrap;
+   padding: 0px 8px;
 }
 .check-box-p
 {
@@ -165,8 +136,37 @@ margin-top: 30px;
     font-family: 'EK_Mukta_Light';
     font-size: 16px;
 }
+.check-box input {
+    /* ...existing styles */
+    display: grid;
+    place-content: center;
+}
+
+.check-box input::before {
+    content: '';
+    width: 1em;
+    height: 1em;
+    /* transform: scale(0);
+    transition: 120ms transform ease-in-out; */
+}
+
+.check-box input:checked::before {
+    transform: scale(1);
+    background-color: #fff;
+    overflow: hidden;
+    border: 2px solid #fff;
+    /* padding: 2.3px; */
+    background-image: url('/assets/SVG icons/check.svg');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* hover */
+.close-icon:hover{
+    box-shadow: 2px 2px 2px 2px gray;
+}
 .registruotis-btn:hover{
     background-color: #ddcab0;
     color: #48271d;
@@ -177,15 +177,28 @@ margin-top: 30px;
 
 
 @media (max-width: 576px){
-    .registration-block {
-        padding: 20px 20px;
-        }
-        .header-h4{
+    .logo{
+        width: 25%;
+    }
+    .waves{
+        display: none;
+    }
+
+  .main-bg{
+    overflow: hidden;
+    padding: 10px 0;
+   
+  }
+  .contact-person{
+    margin-top: 0px;
+  }
+    .header-h4{
             text-align: center;
         }
-        .contact-info {
+    .contact-info {
             flex-direction: column;
             align-items: center;
             gap: 10px;
                 }
 }
+
