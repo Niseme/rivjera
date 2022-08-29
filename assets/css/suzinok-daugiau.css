@@ -1,0 +1,116 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-bg {
+    background: rgb(62, 63, 52);
+    /* background-image: url('/assets/bg-img.png'); */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #48271d;
+}
+
+/* .gradient-bg{
+    background-image: url('/assets/bg-gradient.png');
+    z-index: -1;
+    height: 100vh;
+} */
+.registration-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background: url('/assets/form-block-bg.png')
+}
+.logo{
+    width: 150px;
+}
+.header-h4{
+padding-top: 18px;
+}
+.header-h3{
+padding-top: 10px;
+}
+.form{
+width: 100%;
+}
+.form-row{
+
+}
+.form-row input{
+    width: 100%;
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #48271d;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: transparent;
+}
+.check-box{
+    display: flex;
+}
+.check-box input{
+    margin: 0;
+}
+.check-box label{
+   width: 100%;
+}
+.check-box-p
+{
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.registruotis-a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.registruotis-btn {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ddcab0;
+    background-color: #48271d; 
+    border: 1px solid #48271d;
+    border-radius: 30px;
+    padding: 20px;
+}
+.contact-person{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    gap: 7px;
+}
+.contact-info{
+    display: flex;
+}
+.contact-phone{
+    display: flex;
+    margin-right: 15px;
+}
+.contact-info img{
+    width: 9%;
+    margin-right: 3px;
+}
+.contact-email{
+    display: flex;
+}
+.contact{
+    font-size: 16px;
+}
+
