@@ -8,7 +8,6 @@ body * {
 }
 
 .main-bg {
-    background: rgb(62, 63, 52);
     background-image: url('/assets/bg-img.png'); 
     height: 100vh;
 }
@@ -16,6 +15,7 @@ body * {
  .gradient-bg{
     background-image: url('/assets/bg-gradient.png');
     height: 100vh;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,6 +119,18 @@ margin-top: 30px;
 }
 .contact{
     font-size: 16px;
+}
+
+/* hover */
+.registruotis-btn:hover{
+    background-color: #ddcab0;
+    color: #48271d;
+}
+.contact-phone:hover {
+    color: red;
+}
+.contact-email:hover {
+    color: red;
 }
 
 @media (max-width: 576px){
