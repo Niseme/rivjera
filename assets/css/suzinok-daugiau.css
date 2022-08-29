@@ -12,6 +12,7 @@ body * {
 .main-bg {
     background-image: url('/assets/bg-img.png'); 
     height: 100vh;
+    overflow-y: hidden;
 }
 
  .gradient-bg{
