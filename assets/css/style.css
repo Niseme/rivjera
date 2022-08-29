@@ -34,7 +34,9 @@ body * {
     box-sizing: border-box;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+.hidden{
+    display: none;
+}
 .main-bg{
     background-image: url('/assets/bg-img.png');
     height: 100vh;
