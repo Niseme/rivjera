@@ -12,13 +12,13 @@ body * {
 }
 
 .main-bg {
-    background-image: url('/assets/img/bg-img.png'); 
+    background-image: url('../img/bg-img.png'); 
     height: 100vh;
     overflow-y: hidden;
 }
 
  .gradient-bg{
-    background-image: url('/assets/img/bg-gradient.png');
+    background-image: url('../img/bg-gradient.png');
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -31,7 +31,7 @@ body * {
     flex-direction: column;
     align-items: center;
     padding: 60px 150px;
-    background: url('/assets/img/form-block-bg.png');
+    background: url('../img/form-block-bg.png');
     position: relative;
 }
 .close-icon{
