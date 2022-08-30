@@ -9,7 +9,7 @@ body * {
 }
 
 .main-bg{
-    background-image: url('/assets/bg-img.png');
+    background-image: url('assets\bg-img.png');
     height: 100vh;
     overflow-y: hidden;
     background-repeat: no-repeat;
