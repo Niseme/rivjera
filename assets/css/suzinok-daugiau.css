@@ -173,7 +173,8 @@ margin-top: 30px;
     color: #48271d;
 }
 .contact:hover {
-    font-family: 'EK_Mukta_ExtraBold';
+    color: #2c1711;
+    font-weight: bold;
 }
 
 @media (max-width: 576px){
