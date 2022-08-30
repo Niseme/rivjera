@@ -157,7 +157,7 @@ margin-top: 30px;
     background-color: #fff;
     overflow: hidden;
     border: 2px solid #fff;
-    background-image: url('../svgicons/check.svg');
+    background-image: url('./assets/svgicons/check.svg');
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
