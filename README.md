@@ -1,1 +1,1 @@
-# rivjera
+# Rivjera project teaser
