@@ -1,4 +1,4 @@
-@import url('assets/css/fonts.css');
+@import url('/assets/css/fonts.css');
 body,
 body * {
     margin: 0;
@@ -192,13 +192,14 @@ margin-top: 30px;
   .contact-person{
     margin-top: 0px;
   }
-    .header-h4{
-            text-align: center;
-        }
-    .contact-info {
-            flex-direction: column;
-            align-items: center;
-            gap: 10px;
-                }
+
+  .header-h4{
+    text-align: center;
+    }
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+     gap: 10px;
+    }
 }
 
