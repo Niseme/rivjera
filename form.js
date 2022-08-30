@@ -1,6 +1,11 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js'
 import { getDatabase, ref, set } from 'https://www.gstatic.com/firebasejs/9.9.3/firebase-database.js'
 
+//Sliding from bottom to top
+gsap.from('.registration-block', {
+    duration: 1, y: '100%'
+})
+
 const firebaseConfig = {
     apiKey: "AIzaSyDHZR3PomFbTDaMb2gF_qq-hKKLgVCjHmM",
     authDomain: "rivjera-57388.firebaseapp.com",
@@ -14,9 +19,7 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const db = getDatabase();
-gsap.from('.registration-block', {
-    duration: 1, y: '100%'
-})
+
 const formData = {};
 
 // used event deligation for taking input field data
