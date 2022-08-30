@@ -1,5 +1,5 @@
-/* fonts */
-@import url('fonts.css'); 
+/* ../css/fonts.css */
+@import url('../css/fonts.css'); 
 body,
 body * {
     margin: 0;
