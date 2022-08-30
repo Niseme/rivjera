@@ -23,31 +23,32 @@
                 <h3 class="header-h3">"Gilužio rivjerą"</h3>
                 <form class="form">
                     <div class="form-row">
-                        <input type="text" name="name" placeholder="Vardas *">
+                        <input type="text" required name="name" placeholder="Vardas *">
                     </div>
                     <div class="form-row">
-                        <input type="phone" name="phone" placeholder="Telefonas *">
+                        <input type="phone" required name="phone" placeholder="Telefonas *">
                     </div>
                     <div class="form-row">
-                        <input type="email" name="email" placeholder="El.paštas *">
+                        <input type="email" required name="email" placeholder="El.paštas *">
                     </div>
                     <div class="form-row ">
                         <p class="check-box-p">Jus domina:</p>
                         <div class="check-box">
-                            <input type="checkbox" id="kabm1" name="kamb1" value="kamb">
+                            <input type="checkbox" id="kabm1" name="kamb" value="kamb1">
                             <label for="kamp1"> 1 kamb.</label><br>
-                            <input type="checkbox" id="kabm2" name="kamb2" value="kamb">
+                            <input type="checkbox" id="kabm2" name="kamb" value="kamb2">
                             <label for="kamp2"> 2 kamb.</label><br>
-                            <input type="checkbox" id="kabm3" name="kamb3" value="kamb">
+                            <input type="checkbox" id="kabm3" name="kamb" value="kamb3">
                             <label for="kamp3"> 3 kamb.</label><br>
-                            <input type="checkbox" id="kabm4" name="kamb4" value="kamb">
+                            <input type="checkbox" id="kabm4" name="kamb" value="kamb4">
                             <label for="kamp4"> 4 kamb.</label><br>
                         </div>
                     </div>
+                    <a type="submit" class="registruotis-a" href="#">
+                        <button class="registruotis-btn">Registruotis</button>
+                    </a>
                 </form>
-                <a class="registruotis-a" href="#">
-                    <button class="registruotis-btn">Registruotis</button>
-                </a>
+
                 <img class="waves" src="/assets/SVG icons/wave.svg" alt="wawe">
                 <div class="contact-person">
                     <h4>Jurgita Kveselaitė</h4>
@@ -67,8 +68,7 @@
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
-    <script src="form.js"></script>
+    <script src="form.js" type="module"></script>
 </body>
 
 </html>
-
