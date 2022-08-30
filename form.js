@@ -42,7 +42,7 @@ document.querySelector(".registruotis-btn").onclick = function (e) {
     set(ref(db, `${formData.email.split('@')[0] || 'Ananomous'}${Math.floor(Math.random() * 100)}`), {
         ...formData
     }).then(() => {
-        alert('Data Added');
+        alert('Jūsų duomenys gauti, netrukus susisieksime');
         document.querySelector(".form").reset();
     }).catch(error => {
         console.log(error)
