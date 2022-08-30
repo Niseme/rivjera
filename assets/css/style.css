@@ -17,6 +17,7 @@ body * {
     background-image: url('/assets/bg-gradient.png');
     height: 100vh;
     background-size: cover;
+    background-repeat: no-repeat;
 } 
 header{
     display: flex;
