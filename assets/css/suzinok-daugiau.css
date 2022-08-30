@@ -13,13 +13,13 @@ body * {
 }
 
 .main-bg {
-    background-image: url('assets/bg-img.png'); 
+    background-image: url('/assets/bg-img.png'); 
     height: 100vh;
     overflow-y: hidden;
 }
 
  .gradient-bg{
-    background-image: url('assets/bg-gradient.png');
+    background-image: url('/assets/bg-gradient.png');
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -32,7 +32,7 @@ body * {
     flex-direction: column;
     align-items: center;
     padding: 60px 150px;
-    background: url('assets/form-block-bg.png');
+    background: url('/assets/form-block-bg.png');
     position: relative;
 }
 .close-icon{
@@ -160,7 +160,7 @@ margin-top: 30px;
     overflow: hidden;
     border: 2px solid #fff;
     /* padding: 2.3px; */
-    background-image: url('assets/SVG icons/check.svg');
+    background-image: url('/assets/svgicons/check.svg');
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
