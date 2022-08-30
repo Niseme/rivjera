@@ -15,7 +15,7 @@ body * {
     background-repeat: no-repeat;
 }
 .gradient-bg{
-    background-image: url('assets/bg-gradient.png');
+    background-image: url('/assets/bg-gradient.png');
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
