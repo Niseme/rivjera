@@ -1,34 +1,34 @@
 @font-face {
     font-family: 'EK_Mukta_Bold';
-    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-Bold.woff2');
+    src: url('../Fontas/EK_Mukta_woff/EkMukta-Bold.woff2');
 }
 
 @font-face {
     font-family: 'EK_Mukta_ExtraBold';
-    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-ExtraBold.woff2');
+    src: url('../Fontas/EK_Mukta_woff/EkMukta-ExtraBold.woff2');
 }
 
 @font-face {
     font-family: 'EK_Mukta_ExtraLight';
-    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-ExtraLight.woff2');
+    src: url('../Fontas/EK_Mukta_woff/EkMukta-ExtraLight.woff2');
 }
 
 @font-face {
     font-family: 'EK_Mukta_Light';
-    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-Light.woff2');
+    src: url('../Fontas/EK_Mukta_woff/EkMukta-Light.woff2');
 }
 
 @font-face {
     font-family: 'EK_Mukta_Medium';
-    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-Medium.woff2');
+    src: url('../Fontas/EK_Mukta_woff/EkMukta-Medium.woff2');
 }
 
 @font-face {
     font-family: 'EK_Mukta_Regular';
-    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-Regular.woff2');
+    src: url('../Fontas/EK_Mukta_woff/EkMukta-Regular.woff2');
 }
 
 @font-face {
     font-family: 'EK_Mukta_SemiBold';
-    src: url('/assets/Fontas/EK_Mukta_woff/EkMukta-SemiBold.woff2');
+    src: url('../Fontas/EK_Mukta_woff/EkMukta-SemiBold.woff2');
 }

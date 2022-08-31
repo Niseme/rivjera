@@ -22,7 +22,7 @@ const db = getDatabase();
 
 const formData = {};
 
-// used event deligation for taking input field data
+// Used event deligation for taking input field data
 document.querySelector('.form').addEventListener('input', (e) => {
     if (e.target.name === "kamb") {
         if (e.target.checked) {
