@@ -6,7 +6,7 @@ body * {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'EK_Mukta_Bold','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .main-bg{
@@ -46,7 +46,6 @@ header{
     display: flex;
     justify-content: center;
     text-align: center;
-    font-family: 'EK_Mukta_Bold';
     font-size: 28px;
     text-transform: uppercase;
     color: #fff;

@@ -72,7 +72,6 @@ margin-top: 30px;
 }
 .form-row input::placeholder{
     color: #48271d;
-    font-family: 'EK_Mukta_Bold';
 }
 .check-box{
     display: flex;
@@ -87,7 +86,6 @@ margin-top: 30px;
 }
 .check-box-p
 {
-    font-family: 'EK_Mukta_Bold';
     margin-bottom: 18px;
     font-size: 16px;
     line-height: 20px;
@@ -119,9 +117,7 @@ margin-top: 30px;
     margin-bottom: 36px;
     gap: 7px;
 }
-.contact-person h4, h5{
-    font-family: 'EK_Mukta_Bold';
-}
+
 .contact-info{
     display: flex;
 }
@@ -141,7 +137,6 @@ margin-top: 30px;
     font-size: 16px;
 }
 .check-box input {
-    /* ...existing styles */
     display: grid;
     place-content: center;
 }
